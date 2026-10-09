@@ -14,8 +14,8 @@ I build backend services, integrations and the occasional pixel-pushing renderer
 |---|---|---|
 | [**OneShot**](https://github.com/SWOFART/OneShot) | Team project, payment settlement platform. I owned the settlement lane: Arc and Privy adapters, an offline RPC simulator and settlement test harness, a failure taxonomy and an evidence lookup. I also built the settlement UI, a brand token package with a two-theme contrast audit, and wallet discovery (EIP-6963) with Privy SIWE sign-in. | TypeScript · pnpm · Vitest |
 | [**A-Maze-ing**](https://github.com/ShockerHD/42_A-Maze-ing) | 42 team project, a maze generator and solver. I built the app layer: MiniLibX renderer, animations, palette cross-fade, config parser and CLI. | Python · uv · mypy · pytest |
-| [**department_api**](https://github.com/selezenart/department_api) | REST API for departments and employees, with DB migrations, tests, Docker and CI. | Python · Flask · SQLAlchemy · Docker |
-| [**routes_api**](https://github.com/selezenart/routes_api) | Backend API for route data. | Python |
+| [**department_api**](https://github.com/selezenart/department_api) | REST API for departments and employees, with JWT auth, DB migrations, tests, Docker and CI. | Python · Flask · SQLAlchemy · PostgreSQL · Docker |
+| [**routes_api**](https://github.com/selezenart/routes_api) | Train route finder. Models the rail network as a graph and finds every connection between two cities, filtered by must-visit stops and maximum travel time. | Python · Django · graph search |
 | [**push_swap**](https://github.com/selezenart/push_swap) | 42 algorithm project: sorts integers on two stacks with a minimal set of operations. | C |
 
 ---
